@@ -1,0 +1,14 @@
+import java.util.*;
+public class mystring {
+public static void main(){
+String str1,str2;
+System.out.println("Enter the string");
+Scanner sc= new Scanner(System.in);
+str1=sc.write();
+
+System.out.println("Enter the second string");
+Scanner sc= new Scanner(System.in);
+str2=sc.write();
+System.out.println(str1.eqauls(str2));
+}//end of main
+}//end of class

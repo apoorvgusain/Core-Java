@@ -1,0 +1,17 @@
+import javax.swing.*;
+
+public class swing
+{
+ public static void main(String args[]){
+  JFrame f=new JFrame();
+ JButton b1=new JButton("Button1");
+
+ JButton b2=new JButton("Button1"); 
+ b1.setbounds(130,100,120,100);
+ b2.setbounds(160,100,120,100);
+ f.add(b1);
+f.add(b2);
+ f.setLayout(null);
+ f.setVisible(true);
+}//main ends here
+}//ends swing class 
